@@ -18,7 +18,6 @@ body{
 header{
     background:var(--secondary-color);
     z-index: 10;
-    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -67,6 +66,7 @@ header h1{
 .hi-text{
     font-size: 2.3em;
     font-weight: bold;
+    color: white;
 
 }
 .dwn-txt{
@@ -76,6 +76,7 @@ header h1{
     border-right: .15em solid orange; 
     white-space: nowrap; 
     margin: 0 auto; 
+    color: white;
     animation: typing 7s steps(100, end) infinite,blink-caret .75s step-end infinite;
     
 }
