@@ -158,9 +158,9 @@ header h1{
     background: var(--primary-color);
     color: white;
 }
-.container h2{
+.container h2,.contact_way i{
     margin-top: 50px;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .top_contact{
     display: flex;
@@ -169,14 +169,18 @@ header h1{
 }
 .contact_way{
     display: flex;
-    align-items: center;
-    margin: 2vh 2vw;
+   align-items: center;
+   justify-content: center;
+    margin:1.5em;
+    padding: 1.5em;
+    padding-bottom: 3em;
     transition: 0.3s all ease-in-out;
     color: white;
     cursor: pointer;
+    height: 3em;
 }
 .contact_way i{
-    margin-right: 5px;
+    margin-right: 1em;
 }
 .bottom_contact{
     display: flex;
@@ -213,12 +217,16 @@ footer{
     }
     .container{
         text-align: center;
+        height: 200vh;
+        font-size: 1em;
+        align-items: center;
     }
     .container h2{
         margin-bottom:5vh ;
         width: 100%;
         font-size: 2rem;
     } 
+    
     .container .bottom_contact,.top_contact{
         flex-direction: column;
         margin-bottom: 100px;
