@@ -1,0 +1,93 @@
+:root{
+    --grey:#ccc;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+    background: white;
+  }
+  a{
+    text-decoration: none;
+  }
+  body{
+    display: flex;
+  }
+  header{
+    position: sticky;
+    top: 0;
+    border: 1px solid var(--grey);
+    height: 100vh;
+  }
+  nav h1{
+    border-bottom: 1px solid var(--grey);
+    padding: 10px;
+    font-weight: 100;
+    font-size: 1.5em;
+  }
+  nav li{
+    list-style:none;
+    border-bottom: 1px solid var(--grey);
+    padding: 10px;
+    color: black;
+    font-size: 0.8em;
+    transition: all 0.3s ease-in-out;
+
+  }
+  nav li:hover{
+    background-color: var(--grey);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .div1{
+
+    width: 60vw;
+    margin:5vh 5vw;
+    font-size: 1em;
+  }
+  .div1 p{
+    font-size: 1em;
+    margin-left: 10px;
+    
+  }
+  .div1 h1{
+    font-size: 1.4em;
+    border-bottom: 1px solid var(--grey);
+    margin-bottom: 20px;
+  }
+  .div1 ul {
+    margin-left: 30px;
+    
+  }
+  .div1 li{
+    margin-bottom: 10px;
+    font-size: 1em;
+
+  }
+
+  .div2 p{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    
+  }
+  code{
+    
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    line-height: 2;
+    background-color: #f4f4f4;
+    padding: 15px;
+    height: 10vh;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+  

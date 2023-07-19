@@ -1,0 +1,67 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    line-height: 1.8em;
+    font-weight: 500;
+    color: #666;
+}
+.pimg1{
+    background: url("img/img1.jpg");
+    height: 100%;
+}
+.pimg2{
+    background: url("img/img2.jpg");
+    height: 400px;
+}
+.pimg3{
+    background: url("img/img4.jpeg");
+    height: 400px;
+}
+.pimg4{
+    background: url("img/img3.jpg");
+    height: 70%;
+}
+.pimg1,.pimg2,.pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+}
+.textbg{
+    background: linear-gradient(135deg, #153677, #4e085f);;
+    color: white;
+    width: 20%;
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 8px;     
+    box-shadow: 4px 5px 3px rgba(1, 1, 1, 0.658);
+}
+
+
+.section{
+    padding: 50px;
+    text-align: center;
+    box-shadow: 4px 5px 3px rgba(1, 1, 1, 0.7);
+}
+.section-dark{
+    background: linear-gradient(135deg, #153677, #4e085f);;
+    color: white;
+    box-shadow: 4px 5px 3px rgba(1, 1, 1, 0.7);
+}
+
+
+@media (max-width:600px) {
+    .textbg{
+        width: 40vw;
+        font-size: 24px;
+    }
+}
