@@ -90,3 +90,20 @@ footer p {
 footer p a:hover{
 color: red;
 }
+@media (max-width:1300px) {
+    .topSection{
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100vh;
+    }
+    footer p{
+        text-align: center;
+    }
+    .middleSection h2{
+        text-align: center;
+        width: 65vw;
+        margin-top: 20vh;
+        margin-bottom: 10vh;
+        font-size: 4em;
+    }
+}
