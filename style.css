@@ -199,6 +199,8 @@ footer{
     .hero{
         flex-direction: column;
         padding-bottom: 10vh;
+    font-size:0.7em ;
+
     }
     .Projects{
         display: flex;
