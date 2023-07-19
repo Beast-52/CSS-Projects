@@ -146,6 +146,9 @@ header h1{
 .card_content a{
     text-decoration: none;
 }
+#cardh{
+    color: var(--primary-color);
+}
 .container{
     display: flex;
     justify-content: center;
