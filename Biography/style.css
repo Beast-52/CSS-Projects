@@ -108,3 +108,9 @@ color: red;
         font-size: 4em;
     }
 }
+@media (max-width:600px) {
+    .textContent{
+        width: 50vw;
+        font-size: 0.5em;
+    }
+}
