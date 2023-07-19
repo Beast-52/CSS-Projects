@@ -2,7 +2,7 @@
     --primary-color:  #003d62;
     --secondary-color:   #00ADE6 ;
     --third-color:#003251;
-    --text-color:#FFF;
+    --text-color:#000;
 }
 
 *{
@@ -24,7 +24,7 @@ header{
     align-items: center;
     height: 5vh;
     position: sticky;
-    color: #000;
+    color: var(--text-color);
     top: 0;
 }
 header ul {
@@ -38,13 +38,12 @@ header ul li{
 
 }
 header ul li:hover{
-    border-bottom: 3px solid #000;
+    border-bottom: 3px solid var(--text-color);
     transition: border 0.3s ease-in-out;
 }
 header ul li a{
     text-decoration: none;
-    color: #000;
-
+    color: var(--text-color);
 
     font-weight: 300;
 
