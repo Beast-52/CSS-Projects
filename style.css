@@ -13,6 +13,7 @@
 }
 body{
     font-size: 1.4rem;
+    
 }
 header{
     background:var(--secondary-color);
@@ -23,7 +24,7 @@ header{
     align-items: center;
     height: 5vh;
     position: sticky;
-    color: var(--text-color);
+    color: #000;
     top: 0;
 }
 header ul {
@@ -37,12 +38,13 @@ header ul li{
 
 }
 header ul li:hover{
-    border-bottom: 3px solid var(--text-color);
+    border-bottom: 3px solid #000;
     transition: border 0.3s ease-in-out;
 }
 header ul li a{
     text-decoration: none;
-    color: var(--text-color);
+    color: #000;
+
 
     font-weight: 300;
 
